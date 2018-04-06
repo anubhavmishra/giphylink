@@ -1,4 +1,5 @@
-# ruby
+# giphylink
+An app that fetches gifs from giphy and generates a link to them.
 
 ```bash
 gem install bundler
