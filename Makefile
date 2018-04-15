@@ -6,7 +6,7 @@ clean: ## Clean the project
 	rm /tmp/giphylink.tar.gz
 
 run: ## Run the project
-	ruby app.rb &
+	ruby app.rb
 
 release: ## Create a tar.gz file for release
 	tar cjv --exclude .git -f /tmp/giphylink.tar.gz .

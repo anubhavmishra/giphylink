@@ -65,6 +65,8 @@ post '/' do
     @image_url, @link_url = get_image params[:keyword]
 
     # Get image using image search
+    # Uncomment when using image-search service to retrive image links
+    # Comment line 65 after.
     #@image_url, @link_url = get_image_search_service params[:keyword]
 
     # Generate shortcode and store it in the database
